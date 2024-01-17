@@ -1,0 +1,60 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  text-align: left;
+  font-style: normal;
+}
+section {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1 {
+  padding-top: 90px;
+  font-size: 40px;
+}
+.colorado {
+  border-radius: 50px;
+}
+.follow {
+  font-family: sans-serif;
+  font-size: 15px;
+
+  margin: 50px;
+}
+.picture {
+  width: 200px;
+  border-radius: 12px;
+}
+.name {
+  font-size: 50px;
+  line-height: 1;
+  margin-top: 10px;
+}
+.main-index {
+  max-width: 700px;
+  display: flex;
+  margin-top: 50px;
+  margin-left: 100px;
+  justify-content: space-evenly;
+}
+.about-main {
+  max-width: 700px;
+}
+.container {
+  margin-top: 100px;
+}
+.email-link {
+  margin-top: 55px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+
+  color: rgb(46, 21, 70);
+  border: 5px solid rgb(173, 101, 240);
+}
+footer {
+  margin-top: 200px;
+  margin-left: 300px;
+}
