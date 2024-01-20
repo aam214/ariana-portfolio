@@ -14,6 +14,10 @@
       integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
       crossorigin="anonymous"
     ></script>
+    <script
+      src="https://kit.fontawesome.com/d718392e10.js"
+      crossorigin="anonymous"
+    ></script>
     <meta
       name="description"
       content="Portfolio, contact, and detailed skills of a front-end developer in Texas named Ariana Morin."
@@ -24,76 +28,64 @@
       href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Front-end Developer in Texas-Ariana M.</title>
   </head>
   <body>
-    <section>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Ariana Morin</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="/index.html"
-              >Home</a
-            >
-            <a class="nav-link" href="about.html">About</a>
-            <a class="nav-link" href="projects.html">Projects</a>
-            <a class="nav-link" href="about.html#contact">Contact</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    </section>
-    <main class="main-index">
+    <container>
+      <img src="Initials.png" width="150" class="initials" />
+      <a href="index.html" class="link">Home</a>
+      <a href="projects.html" class="link">Projects</a>
+      <a href="about.html" class="link">About</a>
+      <a href="about.html#contacts" class="link">Contact</a>
+    </container>
+
+    <div class="hero">
       <h1 class="text-center">
         Front-end Developer in Texas
         <div class="name">Ariana Morin</div>
       </h1>
-      <h2>
+      <p>
         <img
           src="Colorado.jpg"
-          width="250"
+          width="200"
           class="colorado"
           alt="front-end developer Ariana Morin"
         />
-      
-  
-      <div class="follow">Follow me:</div> 
-      </h2>
-    
-    </main>
-
-    <div class="container">
-
-      <div class="row">
-    <div class="col-md-4 p-3">
-      <img src="international-clocks.png" alt="World Clocks"
-      class="picture"/>
+      </p>
+      <div class="follow">
+        Follow me: <i class="fa-brands fa-github"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-linkedin"></i>
+      </div>
     </div>
 
-    <div class="col-md-4 p-3">
-    <img src="floral.hobby.png" alt="Floral Hobby"
-    class="picture"/></div>
-  <div class="col-md-4 p-3">
-    <img src="weather-app.png"alt="Weather App" 
-    class="picture"/></div>
-  </div>
-</div><div>
+    <section class="projects">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-md-4 p-3">
+            <img
+              src="international-clocks.png"
+              alt="World Clocks"
+              class="picture"
+            />
+          </div>
+
+          <div class="col-md-4 p-3">
+            <img src="floral.hobby.png" alt="Floral Hobby" class="picture" />
+          </div>
+          <div class="col-md-4 p-3">
+            <img src="weather-app.png" alt="Weather App" class="picture" />
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="index.js"></script>
   </body>
 </html>
