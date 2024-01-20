@@ -3,7 +3,7 @@ body {
   font-optical-sizing: auto;
   text-align: center;
   font-style: normal;
-  max-width: 600;
+  max-width: 540;
   background: #f4f4f4;
 }
 
@@ -43,6 +43,7 @@ container {
 .name {
   font-size: 70px;
   line-height: 1;
+  text-align: center;
   color: #58b368;
   margin-top: 10px;
 }
