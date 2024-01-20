@@ -50,8 +50,8 @@ container {
 .hero {
   display: flex;
   margin-top: 50px;
-  text-align: center;
-  margin-left: 200px;
+
+  margin-left: 230px;
 }
 .about-main {
   max-width: 700px;
