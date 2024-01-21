@@ -10,8 +10,8 @@
 .primary-link {
   text-decoration: none;
   font-weight: bold;
-  color: black;
-  opacity: 0.7;
+  color: var(--primary-color);
+
   text-align: center;
 }
 .link {
