@@ -12,18 +12,27 @@
   font-weight: bold;
   color: black;
   opacity: 0.7;
+  text-align: center;
 }
 .link {
   margin-top: 40px;
   text-decoration: none;
-  font-weight: bold;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
   color: var(--primary-color);
 }
 p {
-  color: var(--primary-color);
-  font-weight: bold;
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
   padding-top: 90px;
   font-size: 40px;
 }
@@ -39,9 +48,12 @@ h1 {
   margin: 40px;
 }
 .follow {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-style: normal;
+
+  margin-top: 30px;
   font-size: 15px;
-  margin-top: 20px;
-  font-size: 18px;
   text-align: center;
   margin-left: 90px;
 }
@@ -76,9 +88,6 @@ h1 {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
-
-  color: rgb(46, 21, 70);
-  border: 5px solid rgb(173, 101, 240);
 }
 footer {
   margin-top: 200px;
