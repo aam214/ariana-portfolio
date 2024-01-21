@@ -7,7 +7,12 @@
   margin-left: -80px;
   border-radius: 100px;
 }
-
+.primary-link {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+  opacity: 0.7;
+}
 .link {
   margin-top: 40px;
   text-decoration: none;
@@ -17,7 +22,7 @@
 .subheading {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 80px;
-  font-size: px;
+  font-size: 35px;
   font-weight: 700;
   color: var(--primary-color);
 }
