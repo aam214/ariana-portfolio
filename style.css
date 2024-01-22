@@ -38,12 +38,16 @@ p {
   line-height: 1.8;
   font-style: normal;
 }
+
 h3 {
   font-family: "Playfair Display", serif;
   padding-top: 25px;
   font-weight: bolder;
   font-size: 80px;
   font-style: normal;
+}
+.about-title {
+  padding-top: 70px;
 }
 h1 {
   font-family: "Playfair Display", serif;
@@ -72,6 +76,7 @@ h1 {
   text-align: center;
   margin-left: 90px;
 }
+
 .about-name {
   font-size: 68px;
   line-height: 1;
