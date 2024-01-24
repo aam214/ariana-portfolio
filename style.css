@@ -73,12 +73,12 @@ h1 {
   margin-left: 320px;
 }
 
-h4 {
+h4,
+h6 {
   font-family: "Merriweather", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 5px;
-  text-align: center;
 }
 
 .name {
