@@ -61,10 +61,9 @@ h1 {
   font-size: 45px;
 }
 .hero {
-  text-align: center;
   display: flex;
-
-  margin-left: 320px;
+  text-align: center;
+  margin-left: 140px;
 }
 
 h4,
