@@ -12,6 +12,17 @@
   text-align: center;
   color: var(--primary-color);
 }
+.active {
+  margin-top: 40px;
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  transition: all 120ms ease-in-out;
+  color: #9be988;
+}
+
 .link {
   margin-top: 40px;
   text-decoration: none;
