@@ -25,9 +25,11 @@ p {
   font-weight: 400;
   line-height: 1.8;
   font-style: bold;
-  color: #93c47d;
 }
-
+.project-details {
+  color: #58b368;
+  font-size: 20px;
+}
 h3 {
   font-family: "Playfair Display", serif;
   padding-top: 25px;
