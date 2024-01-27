@@ -93,6 +93,12 @@ h4 {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  opacity: 0.8;
+  transition: all 120ms ease-in-out;
+  cursor: pointer;
+}
+
 .quote {
   font-size: 8px;
   margin-top: 150px;
@@ -128,5 +134,5 @@ i:hover {
   cursor: pointer;
 }
 footer {
-  padding-top: 150px;
+  padding-top: 100px;
 }
