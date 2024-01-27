@@ -136,3 +136,7 @@ i:hover {
 footer {
   padding-top: 100px;
 }
+.emoji {
+  font-size: 30px;
+  padding: 10px;
+}
