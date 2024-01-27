@@ -48,10 +48,7 @@
 .link:hover {
   color: var(--secondary-color);
 }
-.project-details {
-  color: #58b368;
-  font-size: 20px;
-}
+
 h1 {
   padding-top: 50px;
   font-family: "Playfair Display", serif;
@@ -104,6 +101,11 @@ h4 {
 
 .projects {
   margin-top: 100px;
+}
+.project-details {
+  color: #58b368;
+  font-size: 20px;
+  font-family: "Merriweather", serif;
 }
 .picture {
   width: 300px;
