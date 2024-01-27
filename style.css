@@ -142,11 +142,3 @@ i:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
-
-.emoji {
-  font-size: 30px;
-}
-.contact {
-  color: white;
-  text-decoration: none;
-}
