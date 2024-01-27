@@ -1,5 +1,6 @@
 :root {
   --primary-color: #58b368;
+  --secondary-color: #1a6929;
 }
 
 .heading {
@@ -18,13 +19,11 @@
   font-optical-sizing: auto;
   font-weight: bolder;
   font-style: normal;
+  transition: all 120ms ease-in-out;
   color: var(--primary-color);
 }
-p {
-  font-family: "Merriweather", serif;
-  font-weight: 400;
-  line-height: 1.8;
-  font-style: bold;
+.link:hover {
+  color: var(--secondary-color);
 }
 .project-details {
   color: #58b368;
@@ -105,7 +104,7 @@ h4 {
 }
 i {
   font-size: 20px;
-  color: #1a6929;
+  color: var(--secondary-color);
 }
 i:hover {
   opacity: 0.8;
