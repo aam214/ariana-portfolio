@@ -3,14 +3,14 @@
   --secondary-color: #1a6929;
 }
 
-.heading {
+.hero {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   margin-bottom: 30px;
   font-weight: bolder;
   font-style: normal;
-  text-align: center;
-  color: var(--primary-color);
+
+  padding-left: 80px;
 }
 .name {
   font-size: 68px;
