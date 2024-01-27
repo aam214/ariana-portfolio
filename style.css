@@ -12,6 +12,14 @@
 
   padding-left: 80px;
 }
+.heading {
+  font-family: "Merriweather", serif;
+  margin-bottom: 30px;
+  font-weight: bolder;
+  font-style: normal;
+
+  padding-left: 80px;
+}
 .name {
   font-size: 68px;
   line-height: 1;
@@ -134,9 +142,10 @@ i:hover {
   cursor: pointer;
 }
 footer {
-  padding-top: 100px;
+  padding: 30px 120px;
+  border-radius: 10px;
+  background-color: #ebeaee;
 }
 .emoji {
   font-size: 30px;
-  padding: 10px;
 }
