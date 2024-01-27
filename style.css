@@ -20,9 +20,13 @@
   font-weight: bolder;
   font-style: normal;
   transition: all 120ms ease-in-out;
-  color: #9be988;
+  color: #184d0b;
 }
-
+.about-paragraph {
+  font-weight: 700;
+  line-height: 1.8;
+  font-family: "Merriweather", serif;
+}
 .link {
   margin-top: 40px;
   text-decoration: none;
