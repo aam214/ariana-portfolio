@@ -60,10 +60,7 @@ h1 {
 .hero {
   display: flex;
   text-align: center;
-  margin-left: 140px;
-}
-h6 {
-  color: #58b368;
+  margin-left: 160px;
 }
 
 h4 {
@@ -114,8 +111,4 @@ i:hover {
   opacity: 0.8;
   transform: scale(1.2);
   cursor: pointer;
-}
-footer {
-  margin-top: 200px;
-  margin-left: 300px;
 }
