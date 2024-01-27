@@ -9,8 +9,6 @@
   margin-bottom: 30px;
   font-weight: bolder;
   font-style: normal;
-
-  padding-left: 80px;
 }
 .heading {
   font-family: "Merriweather", serif;
@@ -101,6 +99,7 @@ h4 {
   width: 140px;
   height: 50px;
   line-height: 30px;
+  margin-top: 80px;
 }
 .btn-branding:hover {
   opacity: 0.8;
@@ -141,4 +140,7 @@ i:hover {
   opacity: 0.8;
   transform: scale(1.2);
   cursor: pointer;
+}
+footer {
+  border-top: 1px solid #8dcc98;
 }
