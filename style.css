@@ -154,3 +154,12 @@ footer {
   margin-top: 80px;
   border-radius: 10px;
 }
+@media (max-width: 960px) {
+  .hero {
+    padding: 10px;
+    margin-left: -10px;
+  }
+  .name {
+    font-size: 50px;
+  }
+}
