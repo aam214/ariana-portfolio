@@ -27,9 +27,9 @@
 .active {
   margin-top: 35px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
+
   font-weight: bolder;
   font-style: normal;
   transition: all 120ms ease-in-out;
@@ -45,7 +45,7 @@
   text-decoration: none;
   font-family: "Playfair Display", serif;
   transition: all 120ms ease-in-out;
-  font-size: 20px;
+  font-size: 15px;
   font-style: normal;
 
   color: var(--primary-color);
@@ -163,5 +163,8 @@ footer {
   }
   .name {
     font-size: 50px;
+  }
+  .link {
+    padding: 3px;
   }
 }
