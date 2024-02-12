@@ -40,14 +40,14 @@
   font-family: "Merriweather", serif;
 }
 .link {
-  margin-top: 40px;
+  margin-top: 50px;
   text-decoration: none;
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: bolder;
+
+  font-size: 20px;
   font-style: normal;
   transition: all 120ms ease-in-out;
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }
 .link:hover {
   color: var(--secondary-color);
@@ -147,11 +147,11 @@ i:hover {
 footer {
   border-top: 1px solid #8dcc98;
 }
-.img-responsive {
+.contact-img-responsive {
   width: 200px;
   display: block;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 20px;
   border-radius: 10px;
 }
 @media (max-width: 960px) {
