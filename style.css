@@ -31,10 +31,11 @@ body{
   margin-top: 10px;
 }
 .active {
-  margin-top: 40px;
+  margin-top: 35px;
   text-decoration: none;
+  font-size: 15px;
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
+
   font-weight: bolder;
   font-style: normal;
   transition: all 120ms ease-in-out;
@@ -46,16 +47,17 @@ body{
   font-family: "Playfair Display", serif;
 }
 .link {
-  margin-top: 40px;
+  margin-top: 35px;
   text-decoration: none;
   font-family: "Playfair Display", serif;
-  font-optical-sizing: auto;
-  font-weight: bolder;
-  font-style: normal;
   transition: all 120ms ease-in-out;
+  font-size: 15px;
+  font-style: normal;
+
   color: var(--primary-color);
 }
 .link:hover {
+  font-size: 20px;
   color: var(--secondary-color);
 }
 
@@ -152,4 +154,23 @@ i:hover {
 }
 footer {
   border-top: 1px solid #8dcc98;
+}
+.contact-img-responsive {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 20px;
+  border-radius: 10px;
+}
+@media (max-width: 960px) {
+  .hero {
+    padding: 10px;
+    margin-left: -10px;
+  }
+  .name {
+    font-size: 50px;
+  }
+  .link {
+    padding: 3px;
+  }
 }
