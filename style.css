@@ -2,7 +2,13 @@
   --primary-color: #58b368;
   --secondary-color: #1a6929;
 }
+body{
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
 
+  font-weight: bolder;
+  font-style: normal;
+}
 .hero {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -11,7 +17,7 @@
   font-style: normal;
 }
 .heading {
-  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
   margin-bottom: 30px;
   font-weight: bold;
   font-style: normal;
@@ -37,7 +43,7 @@
 .about-paragraph {
   font-weight: 700;
   line-height: 1.8;
-  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
 }
 .link {
   margin-top: 40px;
@@ -62,7 +68,7 @@ h1 {
 }
 h2 {
   text-align: center;
-  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
 }
 h3 {
   font-family: "Playfair Display", serif;
@@ -73,7 +79,7 @@ h3 {
 }
 h4,
 h6 {
-  font-family: "Merriweather", serif;
+  font-family: "Playfair Display", serif;
   font-weight: 400;
   font-style: normal;
 }
