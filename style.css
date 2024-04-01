@@ -59,7 +59,12 @@ body{
   
   color: var(--secondary-color);
 }
+.project-link{
+  color: var(--primary-color);
+  font-size: 30px;
 
+  font-family: "Playfair Display", serif;
+}
 h1 {
   padding-top: 50px;
   font-family: "Playfair Display", serif;
@@ -82,12 +87,10 @@ h4,
 h6 {
   font-family: "Playfair Display", serif;
   font-weight: 400;
-  font-style: normal;
 }
 
 .title {
   padding-top: 70px;
-
   font-family: "Playfair Display", serif;
   font-weight: 500;
   padding-top: 90px;
@@ -128,8 +131,9 @@ h6 {
 }
 .project-details {
   color: #58b368;
-  font-size: 18px;
+  font-size: 22px;
   font-family: serif;
+  margin-top: 20px;
 }
 .picture {
   width: 300px;
@@ -137,9 +141,9 @@ h6 {
   transition: all 120ms ease-in-out;
   border-radius: 10px;
 }
-.picture:hover {
+.project-link:hover {
   opacity: 0.8;
-  transform: scale(1.05);
+ font-size:35px ;
   cursor: pointer;
 }
 i {
