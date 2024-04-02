@@ -169,6 +169,12 @@ footer {
     font-size: 50px;
   }
   .link {
-    padding: 3px;
+    padding: 7px;
+  }
+  .active {
+    padding: 9px;
+  }
+  .navbar-brand{
+    margin-left: -30px;
   }
 }
