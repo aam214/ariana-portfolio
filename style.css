@@ -9,6 +9,11 @@ body{
   font-weight: bolder;
   font-style: normal;
 }
+.navbar-brand{
+  border: 2px solid #184d0b;
+  margin-left: -20px;
+  margin-top: 20px;
+}
 .hero {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -54,6 +59,7 @@ body{
 
 
   color: var(--primary-color);
+
 }
 .link:hover {
   
@@ -150,7 +156,8 @@ i:hover {
   cursor: pointer;
 }
 footer {
-  border-top: 1px solid #8dcc98;
+
+  margin-top: 100px;
 }
 .contact-img-responsive {
   width: 200px;
