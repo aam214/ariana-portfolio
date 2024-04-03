@@ -159,6 +159,9 @@ footer {
 
   margin-top: 100px;
 }
+footer a{
+  color: var(--primary-color);
+}
 .contact-img-responsive {
   width: 200px;
   display: block;
@@ -172,6 +175,9 @@ footer {
     padding: 10px;
     margin-left: -10px;
   }
+  footer{
+    font-size: 10px;
+  }
   .name {
     font-size: 50px;
   }
@@ -183,5 +189,8 @@ footer {
   }
   .navbar-brand{
     margin-left: -30px;
+    width:80px;
+
+    margin-left: 10px;
   }
 }
