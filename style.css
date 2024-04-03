@@ -104,6 +104,7 @@ h6 {
 
 .btn-branding {
   background: var(--secondary-color);
+  font-family: "Playfair Display", serif;
   border-radius: 4px;
   padding: 10px 20px;
   color: white;
@@ -129,12 +130,7 @@ h6 {
 .projects {
   margin-top: 100px;
 }
-.project-details {
-  color: #58b368;
-  font-size: 22px;
-  font-family: serif;
-  margin-top: 20px;
-}
+
 .picture {
   width: 300px;
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
