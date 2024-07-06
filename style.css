@@ -10,14 +10,16 @@ body{
   font-style: normal;
 }
 nav{
-  background-color: #b5d6cc;
-  color: white;
+  background-color: #7A9E7E;
+  padding: 10px 10px;
 }
-
-
+.navbar-brand{
+  border-radius: 50px;
+}
 .hero {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
+  margin-top: 20px;
   margin-bottom: 30px;
   font-weight: bolder;
   font-style: normal;
@@ -48,16 +50,15 @@ nav{
   cursor: pointer;
   margin: 20px;
   font-family: "Playfair Display", serif;
-  transition: all 120ms ease-in-out;
-  font-size: 40px;
+
 }
 li{
-font-size: 25px;
+  font-size: 25px;
 }
-
 .nav-link:hover {
-  text-decoration: underline;
   opacity: 0.8;
+  transition: all 130ms ease-in-out;
+  font-size: 30px;
 }
 h1 {
   padding-top: 50px;
@@ -93,9 +94,7 @@ h4{
   text-align: center;
   margin-left: 70px;
 }
-.project-button{
-  padding-top: 20px
-}
+
 .btn-branding {
   background-color:var(--primary-color);
   border: none;
