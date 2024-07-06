@@ -81,7 +81,6 @@ h4{
   font-family: "Playfair Display", serif;
   font-weight: 400;
 }
-
 .title {
   padding-top: 70px;
   font-family: "Playfair Display", serif;
@@ -94,7 +93,9 @@ h4{
   text-align: center;
   margin-left: 70px;
 }
-
+.project-button{
+  padding-top: 20px
+}
 .btn-branding {
   background-color:var(--primary-color);
   border: none;
@@ -108,7 +109,7 @@ h4{
   border-radius: 4px;
   font-size: 20px;
   margin: 0 auto;
-  margin-top: 50px;
+  margin-top: 70px;
   cursor: pointer;
 }
 .btn-branding:hover {
