@@ -27,8 +27,9 @@ main{
   background-color: #bbc9bd;
   margin-bottom: 30px;
   font-weight: bolder;
-  margin: 50px;
-  font-style: normal;
+  display: flex;
+    text-align: center;
+   
 }
 .heading {
   font-family: "Playfair Display", serif;
@@ -94,11 +95,6 @@ h4{
   font-weight: 500;
   padding-top: 90px;
   font-size: 45px;
-}
-.hero {
-  display: flex;
-  text-align: center;
-  margin-left: 70px;
 }
 
 .btn-branding {
@@ -185,7 +181,7 @@ footer a{
     font-size: 15px;
   }
   i{
-    font-size: 10px;
+    font-size: 15px;
     margin-left: -5px;
   }
   .navbar-brand{
@@ -195,6 +191,10 @@ footer a{
   }
   .name {
     font-size: 45px;
+  }
+  .about-paragraph {
+
+    font-size: 18px;
   }
   footer{
     font-size: 10px;
