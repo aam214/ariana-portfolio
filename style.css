@@ -80,12 +80,12 @@ h2 {
 }
 h3 {
   font-family: "Playfair Display", serif;
-  padding-top: 25px;
+  padding-top: 20px;
   font-weight: bolder;
   font-size: 80px;
   font-style: normal;
 }
-h4{
+h5, h4{
   font-family: "Playfair Display", serif;
   font-weight: 400;
 }
