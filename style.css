@@ -195,11 +195,13 @@ footer a{
 }
 @media (max-width: 960px) {
   .follow-me{
-    font-size: 15px;
+    font-size: 20px;
+    margin-top: 20px;
   }
   i{
-    font-size: 15px;
+    font-size: 20px;
     margin-left: -5px;
+    margin-top: 20px;
   }
   
   li{
