@@ -23,7 +23,7 @@ main{
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
   margin-top: 20px;
-  padding: 70px;
+  padding: 50px;
   background-color: #bbc9bd;
   margin-bottom: 30px;
   font-weight: bolder;
@@ -69,11 +69,12 @@ li{
   font-size: 30px;
 }
 h1 {
-  padding-top: 50px;
+ 
   font-family: "Playfair Display", serif;
   font-weight: 500;
   font-size: 45px;
 }
+
 h2 {
   text-align: center;
   font-family: "Playfair Display", serif;

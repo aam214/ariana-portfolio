@@ -2,8 +2,8 @@ const title = document.querySelector(".title");
 
 
 const careers = [
-"a Web Developer" , "a Front-end Developer", 
-"an Artist", "an SEO Specialist", "a WordPress Developer"
+"Web Developer" , "Front-end Developer", 
+"SEO Specialist", "WordPress Developer"
 ];
 
 let careerIndex = 0;
@@ -14,7 +14,7 @@ updateCareer();
 function updateCareer(){
   characterIndex ++;
 title.innerHTML =
-  `<h1>I am ${careers[careerIndex].slice(0, characterIndex)}
+  `<h1>${careers[careerIndex].slice(0, characterIndex)}
   </h1>`;
   
 if (characterIndex === careers[careerIndex].length)
@@ -28,3 +28,4 @@ if (careerIndex === careers.length){
   setTimeout(updateCareer, 250);
   
 }
+
