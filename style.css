@@ -98,7 +98,7 @@ h5, h4{
   font-size: 45px;
 }
 
-.btn-branding {
+.btn-branding, .btn2-branding {
   background-color:var(--primary-color);
   border: none;
   color: white;
@@ -116,7 +116,10 @@ h5, h4{
   margin-top: 70px;
   cursor: pointer;
 }
-.btn-branding:hover {
+.btn2-branding{
+  margin-bottom: 500px;
+}
+.btn-branding:hover, .btn2-branding:hover {
   opacity: 0.8;
 }
 .btn-to-projects{
