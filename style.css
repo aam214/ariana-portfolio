@@ -1,5 +1,5 @@
 :root {
-  --primary-color: #183A37;
+  --primary-color: #224643;
   --secondary-color: #7A9E7E;
 }
 body{
@@ -115,9 +115,6 @@ h5, h4{
   margin: 0 auto;
   margin-top: 70px;
   cursor: pointer;
-}
-.btn2-branding{
-  margin-bottom: 500px;
 }
 .btn-branding:hover, .btn2-branding:hover {
   opacity: 0.8;
