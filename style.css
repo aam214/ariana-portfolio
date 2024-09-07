@@ -28,12 +28,19 @@ main{
   margin-bottom: 30px;
   font-weight: bolder;
   display: flex;
-    text-align: center;
-   
+    text-align: center; 
+}
+img {
+  object-fit: cover;
+}
+.image{
+width: 650px;
+ object-fit: cover;
+ height: 350px;
 }
 .heading {
   font-family: "Playfair Display", serif;
-  margin-bottom: 30px;
+  
   font-weight: bold;
   font-style: normal;
 }
@@ -198,12 +205,19 @@ footer a{
     font-size: 20px;
     margin-top: 20px;
   }
+  h3{
+    text-align: center;
+  }
   i{
     font-size: 20px;
     margin-left: -5px;
     margin-top: 20px;
   }
-  
+  .image{
+  width: 330px;
+ object-fit: cover;
+ height: 220px;
+  }
   li{
     font-size: 15px;
   }
@@ -235,5 +249,11 @@ footer a{
   }
   footer{
     font-size: 10px;
+  }
+}
+@media (max-width: 500px) {
+  .image{
+    width: 400px;
+    height: 250px ;
   }
 }
