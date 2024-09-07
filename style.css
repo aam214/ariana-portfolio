@@ -55,7 +55,7 @@ width: 650px;
 .about-paragraph {
   font-weight: 500;
   font-size: 30px;
-  line-height: 1.2;
+  line-height: 1.9;
   font-family: "Playfair Display", serif;
 }
 .nav-link {
@@ -258,5 +258,8 @@ footer a{
   .heading{
     text-align: center;
     font-size: 24px;
+  }
+  .title{
+    font-size: 35px;
   }
 }
