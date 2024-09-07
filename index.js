@@ -2,7 +2,7 @@ const title = document.querySelector(".title");
 
 
 const careers = [
-"Web Developer" , "Front-end Developer", 
+"Web Developer" , "Front-end Developer", "Web Designer",
 "SEO Specialist", "WordPress Developer"
 ];
 
