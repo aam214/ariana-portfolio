@@ -31,10 +31,6 @@ main{
   display: flex;
   text-align: center; 
 }
-img {
-  object-fit: cover;
-}
-
 .heading {
   font-family: "Playfair Display", serif;
   font-weight: bold;
